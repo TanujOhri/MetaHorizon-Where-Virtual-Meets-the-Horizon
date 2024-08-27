@@ -1,8 +1,11 @@
 The interactive website for MetaHorizon is designed to provide an engaging and comprehensive platform for users interested in our revolutionary VR headset. The website features several key sections: a product description page, a checkout section, an about section, and a contact and subscription area. Each section is crafted to ensure a seamless user experience and facilitate easy access to information and purchasing options.
 
 1. Product Description Page
+
 Objective: To present detailed information about the MetaHorizon VR headset, highlighting its features, specifications, and benefits.
+
 Features:
+
 High-Resolution Images: Showcases the VR headset from multiple angles to give users a clear view of the product.
 Detailed Specifications: Includes technical details such as resolution, field of view, compatibility, and special features.
 Key Benefits: Outlines the advantages of MetaHorizon, including immersive experiences, cutting-edge technology, and enhanced virtual interactions.
