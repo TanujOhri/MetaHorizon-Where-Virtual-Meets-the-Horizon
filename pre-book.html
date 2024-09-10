@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-book MetaHorizon</title>
+    <link rel="stylesheet" href="trial-page.css">
+</head>
+<body class="pre-book-body">
+    <nav>
+        <div class="logo">
+           <h1>MetaHorizon</h1>
+           <h2>#WHERE VIRTUAL MEETS THE HORIZON</h2>
+        </div>
+        <div class="menu">
+            <a href="trial-page.html">Home</a>
+            <a href="#">About</a>
+            <a href="contact.html">Contact</a>
+        </div>            
+        <div class="pre-book">
+            <a href="pre-book.html">Pre-book</a>
+        </div>
+    </nav>
+    <section class="cart">
+        <h2>Pre-book Your MetaHorizon</h2>
+        <form action="/place-order" method="POST">
+            <div class="cart-item">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+                <p>Price per unit: <span id="unit-price">30000</span>/-</p>
+                <p>Total Price: <span id="total-price">30000</span>/-</p>
+            </div>
+
+            <div class="cart-item">
+                <label for="mobile">Mobile Number:</label>
+                <input type="text" id="mobile" name="mobile" placeholder="Enter your mobile number">
+            </div>
+
+            <div class="cart-item">
+                <button type="submit">Place Order</button>
+            </div>
+        </form>
+    </section>
+
+    <script src="cart.js"></script>
+    <script src="server.js"></script>
+</body>
+</html>
